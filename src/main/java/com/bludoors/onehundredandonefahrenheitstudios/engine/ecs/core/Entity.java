@@ -1,4 +1,4 @@
-package com.bludoors.onehundredandonefahrenheitstudios.engine.ecs;
+package com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core;
 
 import java.util.HashMap;
 import java.util.Map;
