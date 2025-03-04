@@ -18,6 +18,7 @@ public class MovementSystem extends SystemBase {
             if (transform != null && velocity != null){
                 transform.x += velocity.vx *deltaTime;
                 transform.y += velocity.vy * deltaTime;
+                transform.z += velocity.vz * deltaTime;
             }
         }
     }
