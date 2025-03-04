@@ -14,5 +14,9 @@ public class Entity {
     public <T extends Component> T getComponent(Class<T> componentClass){
         return componentClass.cast(components.get(componentClass));
     }
+
+    public <T extends Component> void removeComponent(T component){
+        components.remove(component.getClass(), component);
+    }
     
 }
