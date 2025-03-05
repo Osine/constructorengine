@@ -18,5 +18,8 @@ public class Entity {
     public <T extends Component> void removeComponent(T component){
         components.remove(component.getClass(), component);
     }
+    public <T extends Component> void removeComponent(Class<T> componentClass) {
+        components.remove(componentClass);
+    }
     
 }
