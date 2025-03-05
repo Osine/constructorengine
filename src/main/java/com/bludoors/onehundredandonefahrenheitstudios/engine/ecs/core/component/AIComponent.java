@@ -1,5 +1,7 @@
 package com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core.component;
 
-public class AIComponent {
+import com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core.Component;
+
+public class AIComponent extends Component{
     
 }

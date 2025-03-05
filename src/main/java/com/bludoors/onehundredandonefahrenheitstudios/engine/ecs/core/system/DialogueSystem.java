@@ -5,7 +5,7 @@ import java.util.List;
 import com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core.Entity;
 import com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core.SystemBase;
 
-public class AISystem extends SystemBase{
+public class DialogueSystem extends SystemBase{
 
     @Override
     public void update(List<Entity> entities, float deltaTime) {

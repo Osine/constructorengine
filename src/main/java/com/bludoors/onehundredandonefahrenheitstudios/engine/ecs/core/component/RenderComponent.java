@@ -1,5 +1,7 @@
 package com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core.component;
 
-public class RenderComponent {
+import com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core.Component;
+
+public class RenderComponent extends Component{
     
 }

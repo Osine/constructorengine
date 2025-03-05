@@ -1,5 +1,7 @@
 package com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core.component;
 
-public class InputComponent {
+import com.bludoors.onehundredandonefahrenheitstudios.engine.ecs.core.Component;
+
+public class InputComponent extends Component{
     
 }
