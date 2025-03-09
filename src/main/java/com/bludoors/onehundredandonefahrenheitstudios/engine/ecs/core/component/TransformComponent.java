@@ -18,7 +18,7 @@ public class TransformComponent extends Component {
 
     public TransformComponent(){
         this.position = new Vector3f(0,0,0);
-        this.position = new Vector3f(0,0,0);
+        this.rotation = new Vector3f(0,0,0);
         this.scale = new Vector3f(1, 1,1);
     }
     
