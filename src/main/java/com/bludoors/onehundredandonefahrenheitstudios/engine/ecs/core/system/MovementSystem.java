@@ -16,9 +16,11 @@ public class MovementSystem extends SystemBase {
             VelocityComponent velocity = entity.getComponent(VelocityComponent.class);
 
             if (transform != null && velocity != null){
-                transform.x += velocity.vx *deltaTime;
-                transform.y += velocity.vy * deltaTime;
-                transform.z += velocity.vz * deltaTime;
+                transform.position.add(
+                    velocity.vx * deltaTime,
+                    velocity.vy * deltaTime,
+                    velocity.vy * deltaTime
+                ); 
             }
         }
     }
